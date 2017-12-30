@@ -1,17 +1,20 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Your Name
-email: you@example.com
+name: Terrell F. Merritt
+email: terrell@terrellfmerritt.com
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A college student, public relations practitioner, programmer, transit
+  advocate, and passionate volunteer trying to do his part to help the community
+  grow.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-url:  # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
+url:  http://terrellfmerritt.com # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
@@ -21,20 +24,20 @@ github_username: terrellfmerritt # put your github username
 twitter_username: terrellfmerritt # put your twitter username
 linkedin_username: terrellfmerritt # put your linkedin username
 scholar_authorid: # put your google scholar author id
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: # You can even add a little note about which of these is the best
+              # way to reach you.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-56296585-1 # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: terlmi
-blog_description:
+blog_description: a journey towards understanding my many passions
 
 # Pagination
 paginate: 4
-permalink: /blog/:year/:title/
+permalink: /blog/:title/
 paginate_path: /blog/page:num/
 
 text:
@@ -62,6 +65,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  organizations:
+    output: true
+    permalink: /orgs/:path/
 
 news_limit: 5
 
