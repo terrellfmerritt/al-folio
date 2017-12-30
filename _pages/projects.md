@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
 description: Various projects that I played a role in.
 ---

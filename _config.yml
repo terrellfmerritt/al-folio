@@ -65,7 +65,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  organizations:
+  orgs:
     output: true
     permalink: /orgs/:path/
 
@@ -77,7 +77,7 @@ news_limit: 5
 
 # Build settings
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 
 # Includes
 include: ['_pages']
