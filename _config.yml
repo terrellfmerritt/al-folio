@@ -23,8 +23,11 @@ last_updated: # leave blank if you don't want to display last updated
 github_username: terrellfmerritt # put your github username
 twitter_username: terrellfmerritt # put your twitter username
 linkedin_username: terrellfmerritt # put your linkedin username
+facebook_username: terrellfmerritt # put your facebook username
 scholar_authorid: # put your google scholar author id
-contact_note: # You can even add a little note about which of these is the best
+contact_note: Reach out to me on social media @terrellfmerritt or email me at
+              [first_name]@[social_media_handle].com!
+              # You can even add a little note about which of these is the best
               # way to reach you.
 
 google_analytics: UA-56296585-1 # out your google-analytics code
@@ -38,7 +41,7 @@ blog_description: a journey towards understanding my many passions
 # Pagination
 paginate: 4
 permalink: /blog/:title/
-paginate_path: /blog/page:num/
+paginate_path: /blog/:num/
 
 text:
   pagination:
@@ -91,7 +94,7 @@ gems:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Merritt
 
   style: apa
   locale: en
