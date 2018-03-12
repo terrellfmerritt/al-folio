@@ -4,8 +4,11 @@
 
     {% if page.layout != "about" %}
     <span class="site-title">
+        {% comment %}
+        <!-- This is what was originally here -->
         {% assign name = site.name | split: ' ' %}
-        <strong>{{ name | first }}</strong> {{ name | last }}
+        {% endcomment %}
+        <strong>Terrell</strong> F. Merritt
     </span>
     {% endif %}
 
