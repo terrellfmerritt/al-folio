@@ -9,7 +9,7 @@ description: clubs and organizations that I have been affiliated with
 {% for org in sorted_orgs %}
 
 <h3>{{ org.title }}</h3>
-<h2>({{ org.dates-active }})</h2>
+<h4>({{ org.dates-active }})</h4>
 <p>
 {{ org.short-desc }}
 {% if org.website %}
